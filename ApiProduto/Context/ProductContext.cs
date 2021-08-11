@@ -13,6 +13,7 @@ namespace ApiProduto.Context
 
         public DbSet<Product> products { get; set; }
 
+        public DbSet<Provider> providers { get; set; }
 
     }
 }
