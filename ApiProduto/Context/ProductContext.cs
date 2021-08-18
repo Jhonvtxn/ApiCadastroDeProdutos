@@ -15,5 +15,7 @@ namespace ApiProduto.Context
 
         public DbSet<Provider> providers { get; set; }
 
+        public DbSet<User> users  { get; set; }
+
     }
 }

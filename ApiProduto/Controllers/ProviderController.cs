@@ -19,6 +19,7 @@ namespace ApiProduto.Controllers
         {
             DbProv = db;
         }
+
         [HttpGet]
         public IEnumerable<Provider> Get()
         {
